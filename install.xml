@@ -1,0 +1,36 @@
+<install>
+	<name>ofxSDL</name>
+	<version>0.01</version>
+	<author>Lee Byron</author>
+	<url>http://www.leebyron.com/else/ofxsdl</url>
+
+	<add>
+		<!-- 	=====================================================================	-->
+		<!--	========================== add per project using this addon =========	-->
+		<!-- 	=====================================================================	-->
+
+		<src>
+			<folder name="addons/ofxSDL/src">
+  			<file>../../../addons/ofxSDL/src/ofxSDL.h</file>
+  			<file>../../../addons/ofxSDL/src/ofxSDLApp.h</file>
+  			<file>../../../addons/ofxSDL/src/ofxSDLAppWindow.cpp</file>
+  			<file>../../../addons/ofxSDL/src/ofxSDLAppWindow.h</file>
+  			<file>../../../addons/ofxSDL/src/ofxSDLEvents.h</file>
+  			<file>../../../addons/ofxSDL/src/SDLMain.m</file>
+  			<file>../../../addons/ofxSDL/src/SDLMain.h</file>
+			</folder>
+		</src>
+
+		<include>
+			<path>../../../addons/ofxSDL/src</path>
+			<path>../../../addons/ofxSDL/libs</path>
+		</include>
+
+		<link>
+			<lib os="mac"   compiler="xcode">../../../addons/ofxSDL/libs/SDL.framework</lib>
+		</link>
+
+	</add>
+
+</install>
+

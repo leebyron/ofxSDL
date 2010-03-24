@@ -1,0 +1,27 @@
+ofxSDL (v0.01)
+
+An openFrameworks addOn which overrides the windowing system to use SDL rather than GLUT.
+There are a handful of benefits from using SDL including:
+
+ * Rich events from Joysticks and Controllers
+ * Events from Mouse scroll wheel
+ * Unicode Keyboard support (TODO)
+
+This ofxSDL addOn was designed to be used with the v006 branch of openFrameworks
+ 
+Lee Byron
+leebyron.com
+
+===============================================================================
+
+ofxSDL is in its infancy, and is missing some major chunks of functionality.
+It's not that they are necessarily difficult to implement, but that I have limited
+time and resources to contribute. Feel free to send me patches on git-hub.
+
+TODO:
+* Decouple from OSX framework, support for Win + Linux
+* Unicode Keyboard support
+* Set window title, size, and position
+* Poco events
+* Toggle and set fullscreen
+* (anything else?)
